@@ -1,0 +1,30 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "email": "doctor1@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "email": "doctor2@example.com",
+      "password": "securepass"
+    },
+    {
+      "id": 3,
+      "email": "doctor3@example.com",
+      "password": "mysecretpw"
+    },
+    {
+      "email": "rsrija204@gmail.com",
+      "password": "",
+      "id": 4
+    },
+    {
+      "email": "rsrija204@gmail.com",
+      "password": "hashe",
+      "id": 5
+    },
+    
+  ]
+}

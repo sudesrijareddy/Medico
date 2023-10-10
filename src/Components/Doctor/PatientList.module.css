@@ -1,0 +1,59 @@
+.listheader{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+.heading1{
+    color: #76A787;
+   padding-top: 2rem;
+}
+.inputfield{
+    border-radius: 5px;
+    padding: 5px 50px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.searchbtn{
+    border-radius:5px;
+    padding: 5px 10px;
+    background-color: white;
+}
+.searchbtn:active{
+    background-color: lightslategray;
+    color: white;
+}
+.button{
+   /* margin: 30px 20px;*/
+   padding: 7px 15px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+.button:active{
+    background-color: lightslategray;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    box-shadow: 3px 3px 10px 1px lightslategray;
+    border-radius: 5px;
+    margin: 5px 10px;
+    color: lightslategray;
+}
+.profilebtn{
+    background-color: cadetblue;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+.profilebtn:active{
+    background-color: aliceblue;
+    color: lightslategray;
+}

@@ -1,0 +1,29 @@
+.tabcontainer{
+    background-color: #445069;
+}
+.brand{
+    color:"lightcoral";
+    font-weight:"600";
+    font-size:"25px";
+}
+.tabheading{
+    font-size: 25px;
+    color: lightslategray;
+}
+@media (max-width:425px){
+    .tabheading{
+        font-size: 18px;
+    }
+    .brand{
+        color:"lightcoral";
+        font-weight:"600";
+        font-size: 18px;
+    }
+}
+.tabheading:hover,
+.tabheading:active{
+    color: white;
+}
+.tabs{
+    margin-left: auto;
+}

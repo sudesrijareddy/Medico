@@ -1,0 +1,13 @@
+.main1{
+    background-image: url(../Images/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 92vh;
+}
+.main1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00000098;
+    font-size: 50px;
+    padding-top: 30px;
+}

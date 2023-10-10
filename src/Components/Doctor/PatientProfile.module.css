@@ -1,0 +1,42 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading1{
+    color: #76A787;
+    margin-bottom: 30px;
+}
+.maincard{
+ padding: 20px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: cadetblue;
+}
+.card{
+    text-align: start;
+    font-size: 35px;
+    color: lightslategray;
+    line-height: 2.6;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+    font-size: 18px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    background-color: lightcoral;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0px 10px;
+}
+.btns button:active{
+    background-color: lightslategray;
+}

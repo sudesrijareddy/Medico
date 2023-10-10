@@ -1,0 +1,66 @@
+.main1{
+    background-color: white;
+    margin: 0;
+    padding-top: 2rem;
+}
+.main1 h1{
+    color: #76A787;
+    padding-bottom: 2rem;
+}
+.addbtn{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.addbtn:active{
+    background-color: lightslategray;
+}
+.formdiv{
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px lightslategray;
+    }
+
+@media (max-width:768px){
+    .formdiv{
+        width: 90%;
+    }
+}
+.loginform{  
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.formlabel{
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    padding: 8px 0px
+}
+.forminput:focus {
+     outline: none !important;
+     border: 2px solid #445069;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+.passwordInput{
+    position: relative;
+}
+.toggleicon{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.error{
+    font-size: 16px;
+    color: red;
+    padding-top: 5px;
+}

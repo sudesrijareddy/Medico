@@ -1,0 +1,130 @@
+{
+  "patients": [
+    {
+      "Email": "Janedoe818@gmail.com",
+      "Password": "Healthcare456",
+      "FullName": "Jane Doe",
+      "Phone": "9876543210",
+      "Diagnosis": [
+        "Allergies ",
+        " Cold"
+      ],
+      "PrescribedMedication": [
+        "Antihistamine ",
+        " Dolo"
+      ],
+      "Address": {
+        "City": "Los Angeles",
+        "State": "California",
+        "Country": "USA",
+        "Pincode": "900101"
+      },
+      "id": 2
+    },
+    {
+      "id": 3,
+      "Email": "alicesmith@example.com",
+      "Password": "Healthcare789",
+      "FullName": "Alice Smith",
+      "Phone": "5551234567",
+      "Diagnosis": [
+        "Diabetes",
+        "Hypertension"
+      ],
+      "PrescribedMedication": [
+        "Metformin",
+        "Lisinopril"
+      ],
+      "Address": {
+        "City": "Chicago",
+        "State": "IL",
+        "Country": "USA",
+        "Pincode": "60601"
+      }
+    },
+    {
+      "Email": "bobjohnson@gmail.com",
+      "Password": "Healthcare101",
+      "FullName": "Boby Johnson",
+      "Phone": "9553504567",
+      "Diagnosis": [
+        "Migraine",
+        "Bodypains"
+      ],
+      "PrescribedMedication": [
+        "Sumatriptan",
+        " paracetemol"
+      ],
+      "Address": {
+        "City": "San Francisco",
+        "State": "California",
+        "Country": "USA",
+        "Pincode": "900101"
+      },
+      "id": 4
+    },
+    {
+      "Email": "shravikaReddy@gmail.com",
+      "Password": "Healthcare123",
+      "FullName": "Nalla ShravikaReddy",
+      "Phone": "6797432789",
+      "Diagnosis": [
+        "Fever ",
+        " Cold"
+      ],
+      "PrescribedMedication": [
+        "Paracetmol ",
+        " ColdMedicine"
+      ],
+      "Address": {
+        "City": "Zaheerabad",
+        "State": "TELANGANA",
+        "Country": "india",
+        "Pincode": "501106"
+      },
+      "id": 5
+    },
+    {
+      "Email": "rahulallula@gmail.com",
+      "Password": "Rahul@1234",
+      "FullName": "Allula Rahul",
+      "Phone": "7854639023",
+      "Diagnosis": [
+        "Allergies ",
+        " Cold"
+      ],
+      "PrescribedMedication": [
+        "Antihistamine ",
+        " Dolo"
+      ],
+      "Address": {
+        "City": "Hyderabad",
+        "State": "TELANGANA",
+        "Country": "India",
+        "Pincode": "501106"
+      },
+      "id": 6
+    },
+    {
+      "Email": "vijaykatta212@gmail.com",
+      "Password": "Healthcare123",
+      "FullName": "katta vijay",
+      "Phone": "9515359485",
+      "Diagnosis": [
+        "Headache",
+        "EyePain"
+      ],
+      "PrescribedMedication": [
+        "Paracetmol",
+        "Eyedrops"
+      ],
+      "Address": {
+        "City": "KVRANGAREDDY",
+        "State": "TELANGANA",
+        "Country": "India",
+        "Pincode": "500016"
+      },
+      "id": 7
+    }
+  ]
+}

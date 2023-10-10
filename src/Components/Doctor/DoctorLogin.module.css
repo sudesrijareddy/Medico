@@ -1,0 +1,78 @@
+.main1{
+    background-color: white;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 4rem;
+}
+.formdiv{
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px lightslategray;
+}
+@media (max-width:768px){
+    .formdiv{
+        width: 90%;
+    }
+}
+.signupform{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading1{
+    color: #76A787;
+    padding-bottom: 35px;
+}
+.formlabel{
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    padding: 8px 0px
+}
+.forminput:focus {
+     outline: none !important;
+     border: 2px solid #445069;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+.signupbtn{
+    background-color: #445069;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.signupbtn:active{
+    background-color: whitesmoke;
+    color: #445069;
+    border: none;
+    outline: none;
+}
+
+.signuplink{
+    text-decoration: none;
+    font-weight: 700;
+    color: #445069;
+}
+.signuplink:hover{
+    text-decoration: underline;
+    text-decoration-color: #445069;
+}
+.errortext{
+    font-size: 18px;
+    color: crimson;
+}
+.passwordInput{
+    position: relative;
+}
+.toggleicon{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
