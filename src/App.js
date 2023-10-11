@@ -11,6 +11,7 @@ import AddPatient from './Components/Doctor/AddPatient';
 import PatientProfile from './Components/Doctor/PatientProfile';
 import EditPatient from './Components/Doctor/EditPatient';
 import UpdatePassword from './Components/Patient/UpdatePassword';
+import ErrorPage from './Components/TabSection/ErrorPage';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path='/patientlist/edit/:patientId' element={<EditPatient/>}/>
           <Route path='/patientlist/addpatient' element={<AddPatient/>}/>
           <Route path="/updatepassword/:patientId" element={<UpdatePassword/>}/>
+          <Route path='*' element={<ErrorPage/>}/>
         </Routes>
       </BrowserRouter>}    
     </div>
